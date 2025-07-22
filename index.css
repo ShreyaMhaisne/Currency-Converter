@@ -126,3 +126,43 @@ i.fa-right-left:hover {
 .btn:hover {
   background-color: #9b1fb2;
 }
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .dropdown {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .from,
+  .to {
+    width: 100%;
+  }
+
+  i.fa-right-left {
+    margin: 0.5rem auto;
+    display: block;
+    transform: rotate(90deg);
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.7rem;
+  }
+
+  .amount input {
+    font-size: 0.95rem;
+  }
+
+  .msg {
+    font-size: 0.95rem;
+  }
+
+  #cur {
+    font-size: 1.5rem;
+  }
+}
+
