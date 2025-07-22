@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f7bb7e, #ea88a1,#efc67b,#fcfc39);
+}
+
+.container {
+  width: 90%;
+  max-width: 750px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+#cur {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #5e0c5b;
+  margin-bottom: 1.5rem;
+}
+
+.amount {
+  margin-bottom: 1.5rem;
+}
+
+.amount p {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #333;
+}
+
+.amount input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.amount input:focus {
+  border-color: #9333ea;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.2);
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.from,
+.to {
+  flex: 1;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0.3rem 0.5rem;
+  background-color: #f9f9f9;
+}
+
+.select-container img {
+  height: 28px;
+  width: 36px;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
+
+.select-container select {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+  flex: 1;
+}
+
+i.fa-right-left {
+  font-size: 1.2rem;
+  color: #7a0fa3;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+i.fa-right-left:hover {
+  transform: rotate(180deg);
+}
+
+.msg {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  background-color: #7a0fa3;
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #9b1fb2;
+}
